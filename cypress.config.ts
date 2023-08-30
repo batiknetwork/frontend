@@ -13,7 +13,7 @@ export default defineConfig({
       await setupHardhatEvents(on, config)
       return config
     },
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'https://batiknetwork.netlify.app',
     specPattern: 'cypress/{e2e,staging}/**/*.test.ts',
   },
 })
